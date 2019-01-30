@@ -5,11 +5,9 @@
     <artifactId>shopping-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>shopping-common</artifactId>
-  <dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-redis</artifactId>
-		</dependency>
-	</dependencies>
+  <artifactId>shopping-api</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>shopping-api-member</module>
+  </modules>
 </project>

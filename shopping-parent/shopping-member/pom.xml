@@ -5,11 +5,12 @@
     <artifactId>shopping-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>shopping-common</artifactId>
+  <artifactId>shopping-member</artifactId>
   <dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-redis</artifactId>
-		</dependency>
-	</dependencies>
+  	<dependency>
+  		<groupId>wg</groupId>
+  		<artifactId>shopping-api-member</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
